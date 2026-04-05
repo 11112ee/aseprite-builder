@@ -52,7 +52,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
         matrix:
-          os: [ macOS-13 ]
+          os:[windows-1atest]
         fail-fast: false
     steps:
       - name: Install Dependencies
